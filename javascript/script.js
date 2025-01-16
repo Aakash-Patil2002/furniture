@@ -176,6 +176,5 @@ const hideloader=()=>{
     setTimeout(()=>{
         wrapper.style.display="block";
         loader.style.display="none";
-
     },3000)
 }
