@@ -171,7 +171,7 @@ color8.addEventListener("click",()=>{
 
 const hideloader=()=>{
     console.log("this is hide loader")
-    const wrapper=document.querySelector(".wrapper");
+    const wrapper=document.querySelector(".parent-wrapper");
     const loader=document.querySelector(".loader");
     setTimeout(()=>{
         wrapper.style.display="block";
