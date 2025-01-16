@@ -167,10 +167,10 @@ color8.addEventListener("click",()=>{
         th[i].setAttribute("class","test-mmr th th8");
     }
 });
-AOS.init();
 
 
 const hideloader=()=>{
+    console.log("this is hide loader")
     const wrapper=document.querySelector(".wrapper");
     const loader=document.querySelector(".loader");
     setTimeout(()=>{
